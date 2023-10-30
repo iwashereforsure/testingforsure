@@ -22,6 +22,8 @@ public class Book_Store_Test extends TestBase{
 
         Locator logOut = page.locator("button:has-text('Log out')");
 
+
+        //Note that depending on the situation, a account has to be made first
         userName.fill("yesman");
         passWord.fill("Abcd1234*");
         logIn.click();
